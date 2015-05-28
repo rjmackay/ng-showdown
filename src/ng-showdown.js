@@ -11,7 +11,7 @@ if (typeof angular !== 'undefined' && typeof showdown !== 'undefined') {
     'use strict';
 
     module
-      .provider('$showdown', provider)
+      .provider('$Showdown', provider)
       .directive('sdModelToHtml', ['$Showdown', '$sanitize', markdownToHtmlDirective])
       .filter('sdStripHtml', stripHtmlFilter);
 
